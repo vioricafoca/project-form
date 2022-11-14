@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="form.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Employee Feedback Form</h1>
+      <p id="description">The success of the organization is proportional to the success of our employees!</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <div class="form-elements">
+          <label for="name" id="name-label">Name</label>
+          <input class="form-property" id="name" name="name" placeholder="Enter your name" required="" type="text">
+        </div>
+        <div class="form-elements">
+          <label for="email" id="email-label">Email</label>
+          <input class="form-property" id="email" name="email" placeholder="Enter your Email" required="" type="email">
+        </div>
+        <div class="form-elements">
+          <label for="number" id="number-label">How long do you work for this company?</label>
+          <input class="form-property" id="number" max="25" min="1" name="years" placeholder="Years" type="number">
+        </div>
+        <div class="form-elements">
+          <label for="dropdown">Job Position</label>
+          <select id="dropdown">
+            <option value="0"></option>
+            <option value="1">Engineer IT</option>
+            <option value="2">Team Lead</option>
+            <option value="3">Count</option>
+            <option value="4">Project Manager</option>
+            <option value="5">Quality Analist</option>
+            <option value="6">HR Manager</option>
+            <option value="7">Sales Manager</option>
+          </select>
+        </div>
+        <div class="form-elements">
+          <label>Do you have any suggestions on how to make the work environment more fun?<textarea class="input-textarea" id="sugestion" name="sugestion" placeholder="Write something.."></textarea></label>
+        </div>
+        <div class="form-elements">
+          <label>Please provide any suggestions or feedback that will help to make your job
+            responsibilities better.
+            <textarea class="input-textarea" id="feedback" name="feedback" placeholder="Write something.."></textarea></label>
+        </div>
+        <div class="form-elements">
+          <label>In terms of income salary, compensation, and benefits, are you satisfied with
+            it?
+            <textarea class="input-textarea" id="salary" name="salary" placeholder="Write something.."></textarea></label>
+        </div>
+        <div class="form-elements">
+          <label>How would you rate the leadership of your current manager?</label>
+          <label>
+            <input class="input-radio" name="appreciate" type="radio" value="bad" />Bad</label>
+          <label>
+            <input class="input-radio" name="appreciate" type="radio" value="good" />Good</label>
+          <label>
+            <input class="input-radio" name="appreciate" type="radio" value="very-good" />Very
+            good</label>
+        </div>
+        <div class="form-elements">
+          <label>Do you plan to move to another job next year?</label></br>
+          <label>
+            <input name="user-recommend" class="input-checkbox" value="definitely" type="checkbox">No</label>
+          <label>
+            <input class="input-checkbox" name="user-recommend" value="maybe" type="checkbox">Maybe</label>
+          <label><input class="input-checkbox" name="user-recommend" value="not-sure" type="checkbox">Not sure</label>
+        </div>
+        <div class="form-elements">
+          <label>Comments, feedback or suggestions to your current manager.
+            <textarea id="comment" class="input-textarea" name="comment" placeholder="Write something.."></textarea></label>
+        </div>
+        <div class="form-elements">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
