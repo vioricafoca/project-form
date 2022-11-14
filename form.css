@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 2.5rem;
+  background-color: #d7dcdd;
+  margin: auto;
+}
+.container {
+  width: 100%;
+  margin: 1.5rem auto 1.5rem auto;
+}
+.form-elements {
+  margin: 2rem auto 2rem auto;
+  padding: 0.15rem;
+}
+.form-property {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.4rem 0.2rem;
+  border: 0.165rem solid #b4b4b4;
+  border-radius: 0.5rem;
+}
+
+form {
+  background: rgb(147, 5, 5, 0.2);
+  padding: 1.875rem 4.375rem 1.25rem 4.375rem;
+  border-radius: 2rem;
+  width: 35%;
+  margin: auto;
+}
+
+label {
+  display: inline;
+  font-size: 1.125rem;
+}
+.input-textarea {
+  min-height: 7.5rem;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+  border: 0.165rem solid #b4b4b4;
+  border-radius: 0.5rem;
+}
+#dropdown {
+  display: block;
+  width: 100%;
+  min-height: 3.5rem;
+  border-radius: 1rem;
+  padding: 0.4rem 0.2rem;
+  border: 0.165rem solid #b4b4b4;
+  border-radius: 0.5rem;
+}
+
+h1,
+p {
+  text-align: center;
+  color: black;
+  font-family: Roboto Condensed;
+  margin: 3rem auto 2rem auto;
+  line-height: 1.25rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+#description {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.4rem;
+  margin: 4rem auto 2.5rem auto;
+}
+
+input[type="radio"],
+[type="checkbox"] {
+  display: inline-block;
+  width: 20%;
+  height: 1.2rem;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  background: #2c7656;
+  border-color: transparent;
+  border-radius: 2rem;
+  color: white;
+  cursor: pointer;
+}
