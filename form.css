@@ -11,14 +11,17 @@ body {
   background-color: #d7dcdd;
   margin: auto;
 }
+
 .container {
   width: 100%;
   margin: 1.5rem auto 1.5rem auto;
 }
+
 .form-elements {
   margin: 2rem auto 2rem auto;
   padding: 0.15rem;
 }
+
 .form-property {
   display: block;
   width: 100%;
@@ -40,6 +43,7 @@ label {
   display: inline;
   font-size: 1.125rem;
 }
+
 .input-textarea {
   min-height: 7.5rem;
   width: 100%;
@@ -48,6 +52,7 @@ label {
   border: 0.165rem solid #b4b4b4;
   border-radius: 0.5rem;
 }
+
 #dropdown {
   display: block;
   width: 100%;
@@ -55,7 +60,6 @@ label {
   border-radius: 1rem;
   padding: 0.4rem 0.2rem;
   border: 0.165rem solid #b4b4b4;
-  border-radius: 0.5rem;
 }
 
 h1,
@@ -67,7 +71,6 @@ p {
   line-height: 1.25rem;
   font-size: 1.875rem;
   font-weight: 700;
-  color: var(--secondary-color);
 }
 
 #description {
