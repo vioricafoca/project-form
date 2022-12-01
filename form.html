@@ -41,17 +41,32 @@
           </select>
         </div>
         <div class="form-elements">
-          <label>Do you have any suggestions on how to make the work environment more fun?<textarea class="input-textarea" id="suggestion" name="suggestion" placeholder="Write something.."></textarea></label>
+          <p class="comments">Do you have any suggestions on how to make the work environment more fun?</p>
+          <textarea class="input-textarea" id="suggestion" name="suggestion" placeholder="Write something.."></textarea>
         </div>
         <div class="form-elements">
-          <label>Please provide any suggestions or feedback that will help to make your job
-            responsibilities better.
-            <textarea class="input-textarea" id="feedback" name="feedback" placeholder="Write something.."></textarea></label>
+          <p class="comments">Please provide any suggestions or feedback that will help to make your job
+            responsibilities better.</p>
+          <textarea class="input-textarea" id="feedback" name="feedback" placeholder="Write something.."></textarea>
         </div>
         <div class="form-elements">
-          <label>In terms of income salary, compensation, and benefits, are you satisfied with
-            it?
-            <textarea class="input-textarea" id="salary" name="salary" placeholder="Write something.."></textarea></label>
+          <label>Select the main motivational factors in your work activity</label><br>
+          <label>
+            <input name="user-recommend" class="input-checkbox" value="definitely" type="checkbox">Autonomy at
+            work</label>
+          <label>
+            <input class="input-checkbox" name="user-recommend" value="maybe" type="checkbox">Professional
+            development opportunities</label>
+          <label><input class="input-checkbox" name="user-recommend" value="not-sure" type="checkbox">Flexible
+            work schedules</label>
+          <label>
+            <input name="user-recommend" class="input-checkbox" value="definitely" type="checkbox">Working
+            independently and remotely</label>
+        </div>
+        <div class="form-elements">
+          <p class="comments">In terms of income salary, compensation, and benefits, are you satisfied with
+            it?</p>
+          <textarea class="input-textarea" id="salary" name="salary" placeholder="Write something.."></textarea>
         </div>
         <div class="form-elements">
           <label>How would you rate the leadership of your current manager?</label>
@@ -67,15 +82,15 @@
         <div class="form-elements">
           <label>Do you plan to move to another job next year?</label><br>
           <label>
-            <input name="user-recommend" class="input-checkbox" value="definitely" type="checkbox">No</label>
+            <input name="user-recommend" class="input-checkbox" value="definitely" type="radio">No</label>
           <label>
-            <input class="input-checkbox" name="user-recommend" value="maybe" type="checkbox">Maybe</label>
-          <label><input class="input-checkbox" name="user-recommend" value="not-sure" type="checkbox">Not
+            <input class="input-checkbox" name="user-recommend" value="maybe" type="radio">Maybe</label>
+          <label><input class="input-checkbox" name="user-recommend" value="not-sure" type="radio">Not
             sure</label>
         </div>
         <div class="form-elements">
-          <label>Comments, feedback or suggestions to your current manager.
-            <textarea id="comment" class="input-textarea" name="comment" placeholder="Write something.."></textarea></label>
+          <p class="comments">Comments, feedback or suggestions to your current manager.</p>
+          <textarea id="comment" class="input-textarea" name="comment" placeholder="Write something.."></textarea>
         </div>
         <div class="form-elements">
           <button type="submit" id="submit" class="submit-button">
