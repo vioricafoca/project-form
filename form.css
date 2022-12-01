@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
 @media only screen and (max-width: 768px) {
   body {
     width: 100%;
@@ -40,7 +41,7 @@ form {
 }
 
 label {
-  display: inline;
+  display: flex;
   font-size: 1.125rem;
 }
 
@@ -51,6 +52,20 @@ label {
   resize: vertical;
   border: 0.165rem solid #b4b4b4;
   border-radius: 0.5rem;
+}
+
+textarea {
+  overflow: auto;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 #dropdown {
@@ -80,11 +95,22 @@ p {
   margin: 4rem auto 2.5rem auto;
 }
 
-input[type="radio"],
-[type="checkbox"] {
-  display: inline-block;
-  width: 20%;
-  height: 1.2rem;
+label .input-radio,
+.input-checkbox {
+  display: flex;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.comments {
+  font-size: 1.125rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 2rem;
+  margin: 1rem 0 1rem auto;
+  padding: 0.15rem;
+  text-align: justify;
+  font-weight: normal;
 }
 
 .submit-button {
